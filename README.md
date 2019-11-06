@@ -1,1 +1,1 @@
-# projekty-junior.python.dev
+# exercise-junior.python.dev
