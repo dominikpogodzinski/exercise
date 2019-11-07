@@ -1,9 +1,9 @@
 from functools import lru_cache
-from moj_dekorator import sprawdz_czy_zalogowany
+from my_decorator import check_if_logged_in
 
 
 @lru_cache(maxsize=1000)
-@sprawdz_czy_zalogowany
+@check_if_logged_in
 def fibonacci(n):
     if n in (1, 2):
         return 1
