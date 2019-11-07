@@ -1,6 +1,6 @@
 from random import randint
 
-zdania = [
+sentence = [
     "Ok, niech będzie",
     "To nie jest najlepszy pomysł",
     "Może jutro",
@@ -9,15 +9,15 @@ zdania = [
 ]
 
 while True:
-    print(zdania[randint(0, len(zdania) - 1)])
+    print(sentence[randint(0, len(sentence) - 1)])
     print('')
 
     while True:
-        losowac = input("Czy losować ponownie? [t/n] ")
+        random = input("Whether to draw again? [y/n] ")
 
-        if losowac == 'n':
+        if random == 'n':
             exit(0)
-        elif losowac == 't':
+        elif random == 'y':
             break
         else:
-            print("Nie rozumiem o co Ci chodzi :P")
+            print("I don`t know what you mean :P")
