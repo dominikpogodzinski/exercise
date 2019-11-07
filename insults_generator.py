@@ -5,12 +5,12 @@ adjectives = ['brzydsza', 'bardziej obsceniczna', 'szkaradniejsza', 'bardziej br
 animals = ['dzikiej kuny', 'czupakabry', 'dzikiego węża', 'bobra']
 
 
-def losuj(lista):
-    return lista[randint(0, len(lista) - 1)]
+def generate(list):
+    return list[randint(0, len(list) - 1)]
 
-print('Twoja {} jest {} niż {} {}'.format(
-    losuj(body_parts),
-    losuj(adjectives),
-    losuj(body_parts),
-    losuj(animals)
+print('Your {} is {} than {} {}'.format(
+    generate(body_parts),
+    generate(adjectives),
+    generate(body_parts),
+    generate(animals)
 ))
