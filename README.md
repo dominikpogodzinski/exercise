@@ -1,1 +1,2 @@
-# exercise-junior.python.dev
+ # List of first programs.
+ 
